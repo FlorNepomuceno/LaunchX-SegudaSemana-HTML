@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Resumen</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/095ab6a474.js" crossorigin="anonymous"></script>
+</head>
+<header>
+    <div class="main-menu">
+        <a href="index.html"><img src="image/logo.png" alt=""></a>
+        <div class="menu">
+            <ul>
+                <li class="menu-section"><a href="index.html">Inicio</a> </li>
+                <li class="menu-section"><a href="#">Nosotros</a></li>
+                <li class="menu-section"><a href="pedido.html">Pedidos</a></li>
+                <li class="menu-section"><a href="contacto.html">Contacto</a></li>
+                <li class="menu-section"><a href="pedidos-pastelero.html">Pastelero</a></li>
+            </ul>
+        </div>
+    </div>
+
+</header>
+<body>
+<section class="container">
+    <h1>Resumen de tu pedido</h1>
+    <div class="order">
+        <table>
+            <tr>
+              <th>Producto</th>
+              <th>Descripción</th>
+              <th>Total</th>
+            </tr>
+            <tr>
+              <td>Pastel Personalizado</td>
+              <td>Sabores: Chocolate, 3 Leches <br>Adornos: Fondant</td>
+              <td>$ 800.00</td>
+            </tr>
+          </table>
+    </div>
+    <hr>
+    <div class="order-form">
+        <form action="order-form.php">
+            <label for="name">Nombre:</label><br>
+                <input type="text" id="name" name="user_name"><br>
+            <label for="phone">Teléfono:</label><br>
+                <input type="text" id="phone"><br>
+            <label for="mail">Correo electrónico:</label><br>
+                <input type="email" id="mail" name="user_mail"><br>
+            <label for="msg" id="msg">Notas adicionales:</label><br>
+                <textarea id="msg" name="user_message"></textarea><br>
+                <button class="boton"> <a href="#">Hacer Pedido</a> </button>
+        </form>
+
+    </div>
+    
+</section>
+<footer>
+    <div class="column-1">
+        <p>Siguenos en redes sociales</p>
+        <div class="footer-social">
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-facebook"></i>
+        </div>
+    </div>
+
+</footer>
+</body>
+</html>

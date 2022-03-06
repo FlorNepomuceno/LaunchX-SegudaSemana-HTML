@@ -1,0 +1,251 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    inset: 0px;
+    margin: 0px;
+}
+.fondo{
+    background-image: url("image/cake-g4206945d0_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.logo{
+    text-align: center;
+    padding-top: 50px;
+}
+.titulo-slide{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    color: #87c7af;
+    padding-bottom: 50px;
+}
+.main-menu{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu{
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: none;
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+    width: 80%;
+    color: #87c7af;
+}
+
+.menu-section{
+    display: inline-block;
+    padding: 5px;
+    width: 15%;
+    text-align: center;
+    color: #87c7af !important;
+
+}
+a:-webkit-any-link {
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    color: #87c7af !important;
+
+}
+.menu-section:hover{
+    color: #4b7f72;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #4b7f72;
+    text-align: center;
+}
+a:link{
+    text-decoration: none;
+}
+.Columna-1{
+    width: 50%;
+    padding: 30px;
+}
+.titulo{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.boton{
+    background-color: #4b7f72;
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.boton:hover{
+    background-color: #676975;
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+}
+footer{
+    background-color:#87c7af;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container{
+    background-color: #e2f6dd;
+}
+.container h1 {
+    font-size: 50px;
+    line-height: 30px;
+    color: #676975;
+    text-align: center;
+    position: relative;
+    padding-top: 50px;
+  }
+  .container p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #676975;
+    text-align: center;
+    position: relative;
+  }
+  
+  .row {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 33.33333333333333% 33.33333333333333% 33.33333333333333%;
+    background-color: #ffffff;
+    border-radius: 50px;
+  }
+  .row label {
+    padding: 50px 50px 50px 50px;
+    cursor: pointer;
+    display: flex;
+  }
+  
+  .row label input[type="checkbox"] {
+    display: none;
+  }
+  
+  .row label .icon-box {
+    position: relative;
+    display: flex;
+    width: 450px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4b7f72;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 21px;
+    transition: 0.5s;
+    user-select: none;
+  }
+  
+  .row label input[type="checkbox"]:checked ~ .icon-box {
+    background-color: #676975;
+    color: #fff;
+  }
+  
+  .row label .icon-box span {
+    margin: 5px;
+    font-size: 18px;
+  }
+  
+  .container .btn {
+    width: 130px;
+    height: 40px;
+    position: absolute;
+    left: 550px;
+    font-size: 16px;
+    border: 0;
+    outline: none;
+    transition: 0.5s cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  }
+  .button-order{
+      align-items: center;
+      padding-bottom: 50px;
+      position: relative;
+      text-align: center;  
+}
+.order-form{
+    position: relative;
+    display: block;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #d8d0c5;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+.register-button {
+    background-color: #4b7f72;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    opacity: 0.9;
+  }
+  .order{
+    padding-left: 150px;
+    padding-right: 150px;
+    display: grid;
+    padding-bottom: 20px;
+  }
+  th{
+      text-align: left;
+      background-color: #4b7f72;
+      color: white;
+      padding: 5px;
+  }
+  hr{
+    width: 85%;
+  }
+  .fa-brands{
+      font-size: 18px;
+      color: #676975;
+  }
+  .box{
+      width: 250px;
+      margin: 10px;
+  }
+  .footer-social{
+    position: relative;
+    padding: 15px;
+    text-align: right;
+  }
+  .column-1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 15px;
+  }
+  .cake-orders{
+    padding-top: 60px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 250px;
+    display: grid;
+  }
+  .boton-center{
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .products{
+    padding-top: 60px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 350px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
